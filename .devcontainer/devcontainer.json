@@ -1,0 +1,7 @@
+{
+	"name": "AWS Examples",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+	"features": {
+		"ghcr.io/devcontainers/features/aws-cli": {}
+	}
+}
