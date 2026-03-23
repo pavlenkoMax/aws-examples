@@ -1,0 +1,7 @@
+tasks:
+  verify-aws-cli:
+    name: Verify AWS CLI
+    description: Confirm the AWS CLI is installed and print its version.
+    command: aws --version
+    triggeredBy:
+      - postDevcontainerStart
